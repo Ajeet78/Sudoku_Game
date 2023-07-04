@@ -65,7 +65,7 @@ public class SudokuGame {
     }
 
     private void removeCells() {
-        int cellsToRemove = 40; // Adjust this value to control difficulty
+        int cellsToRemove = 40; 
 
         while (cellsToRemove > 0) {
             int row = random.nextInt(9);
